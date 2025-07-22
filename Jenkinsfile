@@ -6,10 +6,7 @@ pipeline {
                 git 'https://github.com/Ravindransivam/usermanagement-service.git'
             }
         }
-        stage('Build') {
-            steps {
-                echo 'Building...'
-            }
+       
         }
     }
 }
